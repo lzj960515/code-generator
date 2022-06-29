@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cn.zijiancode.code.generator.window.MybatisWhereGenerator">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="572"/>
+    </constraints>
+    <properties/>
+    <border type="etched"/>
+    <children>
+      <grid id="618a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <minimumSize width="51" height="32"/>
+        </properties>
+        <border type="etched" title="前缀"/>
+        <children>
+          <component id="a76c9" class="javax.swing.JTextField" binding="prefixText">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <grid id="638db" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f43ff" class="javax.swing.JButton" binding="generateButton" default-binding="true">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="generate"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="173be" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <toolTipText value="" noi18n="true"/>
+        </properties>
+        <border type="etched" title="where语句生成结果">
+          <title-color color="-4473925"/>
+        </border>
+        <children>
+          <scrollpane id="7cc2f">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <minimumSize width="400" height="500"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="fb1f3" class="javax.swing.JTextArea" binding="statementText">
+                <constraints/>
+                <properties>
+                  <focusCycleRoot value="false"/>
+                  <lineWrap value="true"/>
+                  <margin top="10" left="10" bottom="10" right="10"/>
+                  <minimumSize width="400" height="500"/>
+                  <name value=""/>
+                  <wrapStyleWord value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

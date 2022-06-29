@@ -15,4 +15,10 @@
         <listener class="com.github.lzj960515.codegenerator.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="MybatisWhereGenerateActionId" class="cn.zijiancode.code.generator.action.MybatisWhereGenerateAction"
+                text="GenerateWhere" description="GenerateMybatisWhereStatements">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
