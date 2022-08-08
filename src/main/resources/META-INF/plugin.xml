@@ -8,10 +8,10 @@
 
     <description>
         <![CDATA[
-            <p>生成Mybatis where语句</p>
-            <p>生成字段列表</p>
             <p>generate Mybatis where statement</p>
             <p>generate column list</p>
+            <p>生成Mybatis where语句</p>
+            <p>生成字段列表</p>
           ]]>
     </description>
 
